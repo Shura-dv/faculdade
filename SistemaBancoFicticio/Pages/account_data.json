@@ -1,0 +1,17 @@
+[
+    {
+        "numero": "123",
+        "saldo": 4898,
+        "chequeEspecial": 1486
+    },
+    {
+        "numero": "456",
+        "saldo": 1500,
+        "chequeEspecial": 750
+    },
+    {
+        "numero": "789",
+        "saldo": 12000,
+        "chequeEspecial": 3500
+    }
+]

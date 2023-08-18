@@ -1,0 +1,329 @@
+/* Estilo para o corpo da página */
+body {
+    background: linear-gradient(to bottom, #000000, #1f1f1f);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #ffd700;
+    text-align: center;
+}
+
+.buscar-conta {
+    color: #008000;
+    text-align:center;
+}
+
+/* Estilo para o formulário de busca de conta */
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(241, 241, 241, 0.986);
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    min-height: 50vh;
+}
+
+.subtitulo {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.input-container label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+.input-container input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    align-content: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-container button {
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #ffb347 0%, #ffcc33 51%, #ffb347 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+
+.input-container button:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilo para o conteúdo da página de visualização de conta */
+
+
+.account-info h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(3, 0, 0);
+    font-weight: 400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.account-info p {
+    margin: 10px 0;
+    color: #333;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.account-options {
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(3, 0, 0);
+
+}
+
+.account-options h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.option-button {
+    display: flex;
+    color: #333;
+    border: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #8E0E00 0%, #1F1C18 51%, #8E0E00 100%);
+    margin: 10px;
+    padding: 10px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.options-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: auto;
+}
+
+.options-links a {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    margin: auto;
+}
+
+
+.back-link {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 10px;
+    padding: 10px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Georgia, serif;
+}
+
+.back-link a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.back-link a:hover {
+    color: #ffcc33;
+}
+
+/* Estilo para o conteúdo da página de depósito e saque*/
+
+body {
+    background: linear-gradient(to bottom, #000000, #1f1f1f);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+h2 {
+    color: #ffd700;
+    text-align: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(241, 241, 241, 0.986);
+    text-align: center;
+    height: 50vh;
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 160px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+.form-container input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container button {
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #ffb347 0%, #ffcc33 51%, #ffb347 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+
+.form-container button:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.list-button {
+    display: inline-block;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #8E0E00 0%, #1F1C18 51%, #8E0E00 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.success-message {
+    color: #008000;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.error-message {
+    color: #f73100da;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo para a página de visualização de contas */
+
+.table-style {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    
+}
+
+.table-style th, .table-style td {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 8px;
+    color: black;
+}
+
+.table-style th {
+    background-color: #f2f2f2;
+}
+
+.input-field {
+    display: block;
+    margin-bottom: 30px;
+}
+
+/* Estilo para a página de pagamento de faturas */
+
+.input-container .invoice-elements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.invoice-elements .input-field {
+    width: 100%;
+    padding: 8px;
+    margin-left: 10px;
+}
+
+
+
+
